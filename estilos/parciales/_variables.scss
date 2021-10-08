@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap');
+
+/* Unifica para distintos navegadores según lo que establezca más adelante*/
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*etiqueta raiz- equivalencia de porcentaje 1 rem 10px*/
+html{
+    font-size: 62.5%;
+}
+

@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap");
+/* Unifica para distintos navegadores según lo que establezca más adelante*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*etiqueta raiz- equivalencia de porcentaje 1 rem 10px*/
+html {
+  font-size: 62.5%;
+}
+
+.header__encabezado {
+  background-color: #417dec;
+  /*Color de fondo*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__encabezado .header__titulo {
+  color: white;
+  /*Color a la tipografía*/
+  font-size: 7rem;
+  /*Tamaño de la tipografía*/
+  text-align: center;
+  /*Alineación del texto*/
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.header__encabezado .header__imagenlogo {
+  width: 70px;
+  padding: 5px;
+  border-style: inset;
+  margin: 15px;
+  background-color: white;
+}
+
+.header__nav {
+  background-color: navy;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.header__nav .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.header__nav .header__menu .header__items {
+  padding: 10px;
+}
+
+.header__nav .header__menu .header__items .header__partesMenu {
+  color: white;
+  text-decoration: none;
+}
+
+.header__nav .header__menu .header__items .header__partesMenu:hover {
+  color: orange;
+}
+
+.header__nav .header__menu .header__items .header__subMenu {
+  position: absolute;
+  background-color: #d4f5c0;
+  display: none;
+}
+
+.header__nav .header__menu .header__items .header__subMenu .header__partesMenu:hover {
+  display: block;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main__titulo {
+  color: forestgreen;
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.main__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+.main__section .main__parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__section .main__mvv {
+  margin-top: 1rem;
+}
+
+.main__section .main__mvv .main__subtitulos {
+  color: orangered;
+  font-size: 2.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.main__section .side__contenido {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.main__section .side__imagenes {
+  width: 250px;
+}
+
+.footer {
+  font-family: 'oswald',sans-serif;
+}
+
+.footer .footer__contenedorImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem;
+}
+
+.footer .footer__imagenes {
+  padding: 0rem 1rem;
+}
+
+.footer .footer__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #add4ad;
+}
+
+.error__body .error_titulo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: navy;
+  font-size: 6rem;
+}
+
+.error__body .error__logo {
+  border-style: inset;
+  border-width: 1rem;
+  border-color: navy;
+  padding: 15px;
+  background-color: white;
+}
+
+.error__body .error__texto {
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.error__body .error__linkInicio {
+  text-decoration: none;
+  color: orangered;
+}
+/*# sourceMappingURL=main.css.map */

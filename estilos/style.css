@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Oswald:wght@200;500;700&display=swap');
+
+/* Unifica para distintos navegadores según lo que establezca más adelante*/
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*etiqueta raiz- equivalencia de porcentaje 1 rem 10px*/
+html{
+    font-size: 62.5%;
+}
+/*Tipografía para TODOS los main*/
+main{
+    font-family: 'Montserrat', sans-serif; /*Tipografía - Qué tipografía usa*/
+    font-weight: 300; /*Variante - Que variante de la tipografía usa*/
+}
+/*Color y tamaño a todos los H1*/
+h1{
+    color: navy; /*Color a la tipografía*/
+    font-size: 7rem; /*Tamaño de la tipografía*/
+    text-align: center; /*Alineación del texto*/
+    background-color: rgb(202, 201, 201); /*Color de fondo*/
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 700; 
+    padding: 10px;
+}
+/*clase a algún elemento en este caso está en H2*/
+.segTitulo{
+    color: forestgreen;
+    font-size: 4rem; 
+    text-align: center; 
+    padding: 10px;
+}
+/*color y tamaño a todos los elementos h3 */
+h3{
+    color: orangered;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+/*Tamaño a los elementos de lista que contienen un a */
+Ul li a{
+    font-size: 2rem;
+    text-decoration: none; /*Saca el subrayado*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/*Color y tamaño a TODOS los párrafos*/
+p{
+    font-size: 1.5rem;
+    color: black;
+    text-align: justify;
+    line-height: 1.5; /*Espaciado entre lineas*/  
+}
+/*Azul a titulos de la tabla; bordes y color de fondo*/
+th{
+    color: royalblue;
+}
+/*Borde y color a la tabla*/
+table{
+    border: 3px solid darkcyan;
+    background-color: beige;
+}
+/*Borde a la celda*/
+tr td{
+    border: 1px solid cyan
+}
+/*tipografía y peso para TODOS los pie de página*/
+footer div p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.logo{
+    width: 70px;
+    padding: 5px;
+    border-style: inset;
+    margin: 15px;
+}
+.imagNeg{
+    width: 250px;
+    display: inline;
+    padding: 10px;
+}
+.invImg{
+    width: 350px;
+    margin: 15px;
+}
+/*Estilo menú con flex Box*/
+.menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+li{
+    padding: 10px;
+}
+.menu li a:hover{
+        color: darkblue;
+}
+/*Submenu*/ 
+.subMenu{
+    position: absolute;
+    background-color: rgb(212, 245, 192);
+    display: none;
+}
+.menu li:hover .subMenu {
+    display: block;
+}
+/*termina el submenu boxmodel extra*/
+/* Formulario de contacto ModelBox*/
+    fieldset{   
+        margin: 20px;
+    }
+    fieldset legend{    
+        margin: 15px;
+    }
+    input{
+        margin: 10px;
+        display: block;
+    }
+    label{
+        margin: 10px;
+        display: block;
+    }
+    .botones{
+        display: inline;
+    }
+    li{
+      list-style: none;
+    }
+/*Página Soluciones de negocio*/
+    .imgSoluciones{
+        width: 700px;
+        margin: 20px;
+    }
+    /*INDEX*/
+    /*Páginas con GRIDS*/
+#grids{
+        display: grid;
+        grid-template-areas: 
+            "header"
+            "main"
+            "footer";
+            grid-template-rows: auto 3fr auto;
+}
+/*Grid Header*/
+header{
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+}
+#gridHeader{
+    display: grid;
+    grid-template-rows: auto;
+}
+.imgHeader{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*Grid Footer*/
+footer{
+    display: grid;
+    grid-template-rows: auto;
+    margin: 10px;
+}
+.footerImagenes{
+    display: flex;
+    justify-content: center;
+}
+div.footerImagenes img{
+    padding: 5px;
+}
+footer div p{
+    margin: 5px;
+}
+/*Main INDEX*/
+#mainIndex{
+    display: grid;
+    grid-template-rows: auto;
+    margin: 20px;
+}
+#parrafoSynectics{
+    padding: 25px;
+}
+#misionVisionValores{
+    padding: 0px 25px 25px 25px;
+}
+
+div#misionVisionValores p {
+    padding-left: 20px;
+}
+/*Termina el main index*/
+/*Main soluciones*/
+#mainSoluciones{
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 20px;
+}
+main#mainSoluciones p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contenidoSoluciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Termina main soluciones*/
+/*Main Investigación*/
+#mainInvestigacion{
+    display: grid;
+    margin: 20px;
+    justify-items: center;
+}
+#imagenesInvestigacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+main#mainInvestigacion p{
+    margin:5px 50px;
+}
+/*main Investigación*/
+
+
+
+/*Configuraciones para responsive*/
+/*Desde 320 pone fondo al main*/
+@media only screen and (min-width: 320px) {
+    main{
+        background-color: rgb(241, 240, 234);
+    }
+  }
+/*Desde 780 en adelante muestra las imagenes del header*/
+@media only screen and (max-width: 780px) {
+    .imgHeader{
+        display: none;
+    }
+}
+/*Desde 1024 pone fondo al footer*/
+@media only screen and (min-width: 1024px) {
+    footer{
+        background-color: rgb(243, 211, 196);
+    }
+  }
+
