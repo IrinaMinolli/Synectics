@@ -48,58 +48,46 @@ html {
   background-color: white;
 }
 
-.header__nav {
-  background-color: navy;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 2rem;
+/*
+.header__nav{
+        background-color: navy;
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: 200;
+        font-size: 2rem;
+        .header__menu{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                list-style: none;
+                .header__items{
+                        padding: 10px;
+                        .header__partesMenu{
+                                color: white;
+                                text-decoration: none;
+                        }
+                        .header__partesMenu:hover{
+                                color: orange;
+                        }
+                        .header__subMenu{
+                            position: absolute;
+                            background-color: rgb(212, 245, 192);
+                            display: none;
+                            .header__partesMenu:hover{
+                                    display: block;
+                            }
+                        }
+                    }
+        }
+       
 }
-
-.header__nav .header__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  list-style: none;
-}
-
-.header__nav .header__menu .header__items {
-  padding: 10px;
-}
-
-.header__nav .header__menu .header__items .header__partesMenu {
-  color: white;
-  text-decoration: none;
-}
-
-.header__nav .header__menu .header__items .header__partesMenu:hover {
-  color: orange;
-}
-
-.header__nav .header__menu .header__items .header__subMenu {
-  position: absolute;
-  background-color: #d4f5c0;
-  display: none;
-}
-
-.header__nav .header__menu .header__items .header__subMenu .header__partesMenu:hover {
-  display: block;
-}
-
+*/
 main {
   font-family: 'Montserrat', sans-serif;
 }
 
 .main__titulo {
-  color: forestgreen;
+  color: #82228b;
   font-size: 3rem;
   text-align: center;
   padding: 10px;

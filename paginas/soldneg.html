@@ -6,36 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="asesoría, formación profesional, Capital humano, Legales, Synectics, Synectics Consulting, desarrollo organizacional, capacitación">
     <title>Synectics Consulting | Soluciones de negocios</title>
-    <link rel="stylesheet" href="../estilos/style.css">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <!--estilos propios-->
+     <link rel="stylesheet" href="../estilos/main.css">
 </head>
-<body id="grids">
+<body class="container-fluid">
     <header>
-        <div id="gridHeader">
-            <h1>Synectics Consulting</h1> 
-            <div class="imgHeader">
-                <img src="../imagenes/logoSynectics.png" class="logo"  alt="logoSynectics">
-            <img src="../imagenes/asesoria/asesoriaUno.jpg"  class="imagNeg" alt="Dos laptos con papeles en el medio">
-            <img src="../imagenes/asesoria/asesoriaDos.jpg"  class="imagNeg" alt="dos personas mirando tablet con grafico de barras">
-            <img src="../imagenes/asesoria/asesoriaTres.jpg" class="imagNeg"  alt="tres personas mirando una tablet">
-            </div>     
+        <div class="header__encabezado">
+            <img src="../imagenes/logoSynectics.png" class="header__imagenlogo"  alt="logoSynectics">
+            <h1 class="header__titulo">Synectics Consulting</h1>
         </div>
-        <nav class="menuPrincipal">
-           <ul class="menu"> <!--Menu de páginas-->
-                <li><a href="../index.html">Inicio</a></li>  
-                <li><a href="soldneg.html">Soluciones de Negocio</a>
-                    <ul class="subMenu">
-                        <li><a href="../imagenes/solDeNeg/capitalHumano.jpg">Capital humano</a></li>
-                        <li><a href="../imagenes/solDeNeg/desarrolloCreciemiento.jpg">Desarrollo</a></li>
-                        <li><a href="../imagenes/solDeNeg/legales.jpg">Legales</a></li>
-                    </ul>
-                </li>
-                <li><a href="formprof.html">Formación Profesional</a></li>
-                <li><a href="investigacion.html">Investigación</a></li>
-                <li><a href="editorial.html">Editorial</a></li>
-                <li><a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+            <!--Menu de páginas-->  
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Soluciones de negocio</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../imagenes/solDeNeg/capitalHumano.jpg">Capital humano</a></li>
+                <li><a class="dropdown-item" href="../imagenes/solDeNeg/desarrolloCreciemiento.jpg">Desarollo</a></li>
+                <li><a class="dropdown-item" href="../imagenes/solDeNeg/legales.jpg">Legales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/formprof.html">Formación profesional</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../paginas/investigacion.html">Investigación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../paginas/editorial.html">Editorial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+            </li>    
+          </ul> 
+      <!--termina el navegador-->
     </header>
     <main id="mainSoluciones">
         <h2 class="segTitulo">Soluciones de Negocios</h2> 
@@ -77,5 +85,7 @@
             <p>Copyright ©2021 Synectics Consulting . Todos los derechos reservados.</p>
         </div>
     </footer>
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
