@@ -99,6 +99,12 @@ main {
   width: 250px;
 }
 
+.main_formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer {
   font-family: 'oswald',sans-serif;
 }
