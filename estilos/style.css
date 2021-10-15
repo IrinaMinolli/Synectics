@@ -14,16 +14,6 @@ main{
     font-family: 'Montserrat', sans-serif; /*Tipografía - Qué tipografía usa*/
     font-weight: 300; /*Variante - Que variante de la tipografía usa*/
 }
-/*Color y tamaño a todos los H1*/
-h1{
-    color: navy; /*Color a la tipografía*/
-    font-size: 7rem; /*Tamaño de la tipografía*/
-    text-align: center; /*Alineación del texto*/
-    background-color: rgb(202, 201, 201); /*Color de fondo*/
-    font-family: 'Oswald', sans-serif; 
-    font-weight: 700; 
-    padding: 10px;
-}
 /*clase a algún elemento en este caso está en H2*/
 .segTitulo{
     color: forestgreen;
@@ -65,18 +55,6 @@ table{
 tr td{
     border: 1px solid cyan
 }
-/*tipografía y peso para TODOS los pie de página*/
-footer div p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 200;
-    text-align: center;
-}
-.logo{
-    width: 70px;
-    padding: 5px;
-    border-style: inset;
-    margin: 15px;
-}
 .imagNeg{
     width: 250px;
     display: inline;
@@ -86,29 +64,6 @@ footer div p {
     width: 350px;
     margin: 15px;
 }
-/*Estilo menú con flex Box*/
-.menu{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-}
-li{
-    padding: 10px;
-}
-.menu li a:hover{
-        color: darkblue;
-}
-/*Submenu*/ 
-.subMenu{
-    position: absolute;
-    background-color: rgb(212, 245, 192);
-    display: none;
-}
-.menu li:hover .subMenu {
-    display: block;
-}
-/*termina el submenu boxmodel extra*/
 /* Formulario de contacto ModelBox*/
     fieldset{   
         margin: 20px;
@@ -135,64 +90,7 @@ li{
         width: 700px;
         margin: 20px;
     }
-    /*INDEX*/
-    /*Páginas con GRIDS*/
-#grids{
-        display: grid;
-        grid-template-areas: 
-            "header"
-            "main"
-            "footer";
-            grid-template-rows: auto 3fr auto;
-}
-/*Grid Header*/
-header{
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-}
-#gridHeader{
-    display: grid;
-    grid-template-rows: auto;
-}
-.imgHeader{
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-/*Grid Footer*/
-footer{
-    display: grid;
-    grid-template-rows: auto;
-    margin: 10px;
-}
-.footerImagenes{
-    display: flex;
-    justify-content: center;
-}
-div.footerImagenes img{
-    padding: 5px;
-}
-footer div p{
-    margin: 5px;
-}
-/*Main INDEX*/
-#mainIndex{
-    display: grid;
-    grid-template-rows: auto;
-    margin: 20px;
-}
-#parrafoSynectics{
-    padding: 25px;
-}
-#misionVisionValores{
-    padding: 0px 25px 25px 25px;
-}
 
-div#misionVisionValores p {
-    padding-left: 20px;
-}
-/*Termina el main index*/
 /*Main soluciones*/
 #mainSoluciones{
     display: grid;
