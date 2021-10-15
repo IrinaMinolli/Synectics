@@ -10,3 +10,16 @@ html{
     font-size: 62.5%;
 }
 
+/*Configuraciones para responsive*/
+/*Desde 320 pone fondo al main*/
+@media only screen and (min-width: 320px) {
+    main{
+        background-color: rgb(241, 240, 234);
+    }
+  }
+  /*Desde 1024 pone fondo al footer*/
+@media only screen and (min-width: 1024px) {
+    footer{
+        background-color: rgb(183, 210, 236);
+    }
+  }

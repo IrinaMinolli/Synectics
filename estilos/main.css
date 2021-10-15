@@ -18,6 +18,21 @@ html {
   font-size: 62.5%;
 }
 
+/*Configuraciones para responsive*/
+/*Desde 320 pone fondo al main*/
+@media only screen and (min-width: 320px) {
+  main {
+    background-color: #f1f0ea;
+  }
+}
+
+/*Desde 1024 pone fondo al footer*/
+@media only screen and (min-width: 1024px) {
+  footer {
+    background-color: #b7d2ec;
+  }
+}
+
 .header__encabezado {
   background-color: #417dec;
   /*Color de fondo*/
@@ -116,7 +131,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .footer .footer__imagenes {
