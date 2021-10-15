@@ -15,12 +15,6 @@ main{
     font-weight: 300; /*Variante - Que variante de la tipografía usa*/
 }
 /*clase a algún elemento en este caso está en H2*/
-.segTitulo{
-    color: forestgreen;
-    font-size: 4rem; 
-    text-align: center; 
-    padding: 10px;
-}
 /*color y tamaño a todos los elementos h3 */
 h3{
     color: orangered;

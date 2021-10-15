@@ -58,10 +58,11 @@ main {
 }
 
 .main__titulo {
-  color: #82228b;
+  color: #02742e;
   font-size: 3rem;
   text-align: center;
   padding: 10px;
+  font-weight: 700;
 }
 
 .main__section {
