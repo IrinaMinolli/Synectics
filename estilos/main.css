@@ -74,10 +74,15 @@ html {
           justify-content: center;
 }
 
+li:hover {
+  background-color: #f8cc7b;
+}
+
 main {
   font-family: 'Montserrat', sans-serif;
 }
 
+/*Titulo para las páginas*/
 .main__titulo {
   color: #02742e;
   font-size: 3rem;
@@ -121,8 +126,37 @@ main {
   text-align: center;
 }
 
-.main__section .side__imagenes {
-  width: 250px;
+/*SOLUCIONES DE NEGOCIO*/
+.main__solParrafo {
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__imagenesSoluciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__imagenesSoluciones .main__img {
+  padding: 2rem;
+}
+
+.main__imagenesSoluciones .main__img img {
+  width: 300px;
+  height: 200px;
 }
 
 .main_formulario {
