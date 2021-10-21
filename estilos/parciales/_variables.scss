@@ -9,6 +9,7 @@
 html{
     font-size: 62.5%;
 }
+
 /*Configuraciones para responsive*/
 /*Desde 320 pone fondo al main*/
 @media only screen and (min-width: 320px) {
@@ -16,9 +17,27 @@ html{
         background-color: rgb(241, 240, 234);
     }
   }
+
+@media (max-width: 540) { 
+    .header__titulo{
+        font-size: 2rem; /*Tamaño de la tipografía*/
+        text-align: center; /*Alineación del texto*/
+        font-family: 'Oswald', sans-serif; 
+        padding: 10px;
+  }
+  img{
+      display: none
+  }
+}
   /*Desde 1024 pone fondo al footer*/
 @media only screen and (min-width: 1024px) {
     footer{
         background-color: rgb(183, 210, 236);
     }
   }
+
+@media only screen and (max-width: 720px) {  
+    .main_formulario{
+        flex-wrap: nonwrap;
+    } 
+}

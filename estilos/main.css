@@ -25,10 +25,31 @@ html {
   }
 }
 
+@media (max-width: 540) {
+  .header__titulo {
+    font-size: 2rem;
+    /*Tamaño de la tipografía*/
+    text-align: center;
+    /*Alineación del texto*/
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+  }
+  img {
+    display: none;
+  }
+}
+
 /*Desde 1024 pone fondo al footer*/
 @media only screen and (min-width: 1024px) {
   footer {
     background-color: #b7d2ec;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .main_formulario {
+    -ms-flex-wrap: nonwrap;
+        flex-wrap: nonwrap;
   }
 }
 
