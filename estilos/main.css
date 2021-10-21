@@ -66,6 +66,12 @@ html {
 
 .header__estilos {
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main {
@@ -78,6 +84,7 @@ main {
   text-align: center;
   padding: 10px;
   font-weight: 700;
+  background-color: white;
 }
 
 .main__section {
@@ -86,6 +93,10 @@ main {
   display: flex;
   margin: 3rem;
   font-size: 1.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main__section .main__parrafo {

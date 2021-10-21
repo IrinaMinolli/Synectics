@@ -8,11 +8,13 @@ main{
     text-align: center; 
     padding: 10px;
     font-weight: 700;
+    background-color: white;
 }
 .main__section{
     display: flex;
     margin: 3rem;
     font-size: 1.5rem;
+    flex-direction: column;
     .main__parrafo{
         display: flex;
     }
