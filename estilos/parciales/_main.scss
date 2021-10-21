@@ -91,9 +91,37 @@ main{
     }
 }
 
+/*CONTACTO*/
+
+.formulario {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    fieldset {
+        font-size: 15px;
+    }
 
 
+    label {
+        font-size: 15px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    select {
+        font-size: 15px;
+    }
+   
+}
 
 .main_formulario{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem;
+    padding: 3rem;
 }
