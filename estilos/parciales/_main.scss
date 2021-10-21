@@ -76,7 +76,20 @@ main{
     font-size: 1.5rem;
 }
 
-
+/*EDITORIAL*/
+.main__editorial{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    p{
+        padding: 1rem;
+    }
+    a{
+        padding-bottom: 2rem;
+    }
+}
 
 
 
