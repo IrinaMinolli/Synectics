@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="asesoría, Investigación, Indices, Synectics, Synectics Consulting, desarrollo organizacional">
     <title>Synectics Consulting | Investigación</title>
-       <!-- Bootstrap CSS -->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-           <!--estilos propios-->
-       <link rel="stylesheet" href="../estilos/main.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--/Bootstrap CSS -->
+    <!-- Librería AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--/ Fin AOS-->
+    <!--estilos propios-->
+    <link rel="stylesheet" href="../estilos/main.css">
+    <!--/estilos propios-->
 </head>
 <body class="container-fluid">
     <header>
@@ -42,15 +47,17 @@
         </div> 
       <!--termina el navegador-->
     </header>
-    <main id="mainInvestigacion">
-        <h2 class="segTitulo">Investigación</h2>
-        <p>
-            Nuestros colaboradores buscan siempre estar en la frontera del conocimiento por lo que además de construir teoría a través de la formulación de investigaciones en diferentes temas de actualidad, también procesan información práctica para brindar a la sociedad datos útiles para la gestión de la economía.
-        </p>
-        <div id="imagenesInvestigacion">
-            <img src="../imagenes/investigacion/investigacion.jpg" class="invImg" alt="lupa sobre pila de carpetas">
-            <img src="../imagenes/investigacion/indices.jpg" alt="gráfico de barras">
-        </div>            
+    <main>
+        <h2 class="main__titulo">Investigación</h2>
+        <section class="container" data-aos="zoom-in" data-aos-duration="1500" >
+            <div  class="main__sectionInv">
+                <p>
+                    Nuestros colaboradores buscan siempre estar en la frontera del conocimiento por lo que además de construir teoría a través de la formulación de investigaciones en diferentes temas de actualidad, también procesan información práctica para brindar a la sociedad datos útiles para la gestión de la economía.
+                </p>
+                <img src="../imagenes/investigacion/investigacion.jpg" class="invImg" alt="lupa sobre pila de carpetas">
+                <img src="../imagenes/investigacion/indices.jpg" alt="gráfico de barras">
+            </div> 
+        </section>           
     </main>
     <footer class="footer">
         <div class="footer__contenedorImagenes">
@@ -65,7 +72,13 @@
             <p>Copyright ©2021 Synectics Consulting . Todos los derechos reservados.</p>
         </div>
     </footer>
-     <!-- Option 1: Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>  
+        AOS.init({
+        once: true });
+    </script>
 </body>
 </html>
