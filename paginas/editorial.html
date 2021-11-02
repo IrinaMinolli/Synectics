@@ -8,6 +8,10 @@
     <title>Synectics Consulting | Editorial</title>
      <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+      <!--/Bootstrap CSS -->
+    <!-- Librería AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--/ Fin AOS-->
      <!--estilos propios-->
      <link rel="stylesheet" href="../estilos/main.css">
 </head>
@@ -44,7 +48,7 @@
     </header>
     <main>
         <h2 class="main__titulo">Editorial</h2>
-        <section class="container">
+        <section class="container" data-aos="zoom-in" data-aos-duration="1500">
             <div class="main__editorial">
                 <p>Publicaciones realizadas por nuestros profesionales</p>
                 <img src="../imagenes/Editorial/millenials.jpg" alt="millenials">
@@ -67,5 +71,11 @@
     </footer>
      <!-- Option 1: Bootstrap Bundle with Popper -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+          <!--AOS-->
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>  
+            AOS.init({
+            once: true });
+          </script>          
 </body>
 </html>
